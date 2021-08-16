@@ -2,15 +2,15 @@
 using System.IO;
 using System.Text;
 
-namespace chiper
+namespace chipper
 {
     class Program
     {
         static readonly string GuarnteedWritePath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-        static readonly string MainPath = Path.Combine(GuarnteedWritePath, "zsotroav", "chiper");
+        static readonly string MainPath = Path.Combine(GuarnteedWritePath, "zsotroav", "chipper");
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to this random chiper by zsotroav! \nWhat do you want to do today?");
+            Console.WriteLine("Welcome to this random chipper by zsotroav! \nWhat do you want to do today?");
             Console.WriteLine("E: Encrypt \nD: Decrypt\nG: Generate key");
 
             switch (Console.ReadLine())
